@@ -13,10 +13,10 @@ list1 = []
 list2 = []
 list3 = []
 
-def two_sorted (list_1, list_2):
-    list_1.extend(list_2)
-    list_1.sort(key=None, reverse=False)
-    return list_1
+def two_sorted (param1, param2):
+    param1.extend(param2)
+    param1.sort(key=None, reverse=False)
+    return param1
 
 list1 = [1, 2, 4]
 list2 = [1, 3, 4]
