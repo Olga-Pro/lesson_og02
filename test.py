@@ -17,7 +17,7 @@ def delete_task():
 def mark_task():
     selected_task = task_listbox.curselection()
     if selected_task:
-        upd_item = task_listbox.get(selected_task)+" - выполнено"
+        upd_item = task_listbox.get(selected_task)+" - выполнено!"
         task_listbox.delete(selected_task)
         task_listbox.insert(selected_task, upd_item)
         task_listbox.itemconfig(selected_task, bg=color3)
